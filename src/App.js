@@ -7,11 +7,10 @@ import CustomerPage from './pages/Customer';
 class App extends Component{
   render(){
     return (
-      <div>
-        <div className="App">
-          <NavBar />
-        </div>
         <BrowserRouter>
+          <div className="App">
+            <NavBar />
+          </div>
           <Routes>
             <Route path="/" >
               <Route index element={<ItemPage />} />
@@ -19,9 +18,6 @@ class App extends Component{
             </Route>
           </Routes>
         </BrowserRouter>
-      </div>
-
-
     )
   }
 }
