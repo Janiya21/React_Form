@@ -18,7 +18,7 @@ class Customer extends Component {
     render() {
         const {id,name,email,tel} = this.state;
         return (
-            <div className="ui  grid" style={{width:"70vw", margin:"6vh 0 0 35vw"}}>
+            <div className="ui grid" style={{width:"70vw", margin:"5vh 0 0 35vw"}}>
                 <div class="column">
                     <div class="ui card">
                         <div class="image">

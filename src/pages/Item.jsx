@@ -18,7 +18,7 @@ class Item extends Component {
     render() {
         const {code,name,price,qty} = this.state;
         return (
-            <div className="ui  grid" style={{width:"70vw", margin:"6vh 0 0 35vw"}}>
+            <div className="ui  grid" style={{width:"70vw", margin:"15vh 0 0 35vw"}}>
                 <div class="column">
                     <form style={{width:"30vw", marginLeft:"-5vw"}} class="ui form" onSubmit={this.submitHandler}>
                             <div class="field">
